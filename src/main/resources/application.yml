@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/apidatabase?createDatabaseIfNotExist=true
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
